@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+    <body onload=" getGithubData();">
+       <div class="topnav">
+           <div class="logo_div">
+                <img src="css/Logo.png" alt="" class="logo">
+                <h1>GIT USERS </h1>
+                <div class="search-container">
+                <input type="text" id="searchUser" placeholder="Search...">
+                <button onclick="searchSingleUser();">Search</button>
+                </div>
+           </div>
+       </div>
+     <ul id="authors"></ul>
+   </body>
+</html>
